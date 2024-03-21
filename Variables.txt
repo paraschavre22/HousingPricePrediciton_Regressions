@@ -1,0 +1,51 @@
+price: Numeric (continuous)
+
+Represents the price of the residential property. It's a continuous variable as it can take on any numeric value within a range.
+
+area: Numeric (continuous)
+
+Indicates the total area (in square feet or square meters) of the property. It's also a continuous variable as it represents a measurable quantity.
+
+bedrooms: Numeric (discrete)
+
+Denotes the number of bedrooms in the property. It's a discrete variable because it represents a countable quantity of whole numbers.
+
+bathrooms: Numeric (discrete)
+
+Represents the number of bathrooms in the property. Similar to bedrooms, it's a discrete variable indicating a countable quantity.
+
+stories: Numeric (discrete)
+
+Indicates the number of stories or floors in the property. Again, it's a discrete variable representing a countable quantity.
+
+mainroad: Categorical (binary)
+
+A binary categorical variable indicating whether the property is located near the main road or not. It has two categories: "yes" or "no".
+
+guestroom: Categorical (binary)
+
+Another binary categorical variable indicating whether the property has a guest room. It also has two categories: "yes" or "no".
+
+basement: Categorical (binary)
+
+Indicates whether the property has a basement. Similar to the previous variables, it's a binary categorical variable with two categories: "yes" or "no".
+
+hotwaterheating: Categorical (binary)
+
+Denotes whether the property has hot water heating. It's a binary categorical variable with two categories: "yes" or "no".
+
+airconditioning: Categorical (binary)
+
+Represents whether the property has air conditioning. Like the previous variables, it's a binary categorical variable with two categories: "yes" or "no".
+
+parking: Numeric (discrete)
+
+Indicates the number of parking spaces available with the property. It's a discrete variable representing a countable quantity.
+
+prefarea: Categorical (binary)
+
+Denotes whether the property is located in a preferred area. It's a binary categorical variable with two categories: "yes" or "no".
+
+furnishingstatus: Categorical (ordinal)
+
+Represents the furnishing status of the property, such as furnished, semi-furnished, or unfurnished. It's an ordinal categorical variable as it has ordered categories.
